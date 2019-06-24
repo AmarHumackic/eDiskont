@@ -1,0 +1,11 @@
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .DrinkControls {
+        position: fixed;
+        top: 58px;
+        left: 0;
+        width: 75%;
+        height: 91%;
+        overflow: scroll;
+    }
+}

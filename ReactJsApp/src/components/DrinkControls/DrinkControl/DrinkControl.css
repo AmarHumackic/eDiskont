@@ -1,0 +1,26 @@
+.DrinkControl {
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.DrinkControl img {
+    width: 50px;
+    height: 100px;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .DrinkControl {
+        width: 245px;
+        height: 100px;
+    }
+
+    .DrinkControl img {
+        width: 70px;
+        height: 120px;
+    }
+}
+

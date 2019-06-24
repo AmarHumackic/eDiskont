@@ -1,0 +1,55 @@
+.Cart ul {
+    list-style: none;
+    max-height: 50rem;
+    text-align: left;
+    padding-left: 3.5rem;
+    display: inline
+}
+
+.Cart ul li input, .Cart ul li p {
+    font-style: italic;
+    display: inline;
+    margin: 5px;
+}
+
+.Cart ul li img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Cart ul li img:hover,
+.Cart ul li img:focus {
+    margin: 1px;
+}
+
+.Cart div {
+    padding-left: 0rem;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Cart {
+        display: flex;
+        flex-direction: column;
+        border-left: 2px inset rgba(163, 131, 131, 0.856);
+        border-bottom: 2px outset rgba(163, 131, 131, 0.856); 
+        position: fixed;
+        top: 58px;
+        right: 0;
+        width: 25%;
+        height: 91%;
+        overflow: scroll;
+    }
+
+    .Cart h2 {
+        padding-left: 3rem;
+    }
+ 
+    .Cart div {
+        padding-left: 3rem;
+    }
+    
+}
